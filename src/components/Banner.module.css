@@ -1,0 +1,60 @@
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+}
+
+.textContainer {
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+
+.textContainer h1 {
+  font-size: 7rem;
+  color: black;
+}
+
+.textContainer p {
+  font-size: 4rem;
+  margin-top: 20px;
+  color: black;
+}
+@media (max-width: 1024px) {
+  .textContainer {
+    top: 150px;
+    left: 50px;
+  }
+  .textContainer h1 {
+    font-size: 5rem;
+  }
+
+  .textContainer p {
+    font-size: 4rem;
+    margin-top: 3px;
+  }
+}
+
+@media (max-width: 890px) {
+  .textContainer {
+    top: 130px;
+    left: 50px;
+  }
+  .textContainer h1 {
+    font-size: 4rem;
+  }
+
+  .textContainer p {
+    font-size: 3rem;
+    margin-top: 3px;
+  }
+}
+
+@media (max-width: 768px) {
+  .textContainer {
+    display: none;
+  }
+}

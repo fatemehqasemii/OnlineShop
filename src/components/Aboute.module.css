@@ -1,0 +1,46 @@
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 70px;
+  min-height: 100vh;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.textContainer {
+  align-items: center;
+}
+
+.textContainer h1 {
+  color: #1a73e8;
+  padding-bottom: 100px;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact p {
+  padding: 30px;
+}
+
+.contact span {
+  color: #1a73e8;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 80px;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact p {
+    padding: 10px;
+  }
+}
